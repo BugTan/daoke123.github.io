@@ -1,20 +1,18 @@
-
-
 ---
 layout: mypost
-title: Linux VPS添加支持IPV6
-categories: [vps,ipv6]
+title:  Linux VPS添加支持IPV6
+categories: [ipv6,vps]
 ---
 ### Linux VPS添加支持IPV6
 
 **一、注册he.net的账号**
 1. 打开注册链接：https://www.tunnelbroker.net/register.php
-![Alt text](./tunnel1.jpg)
+![这是图片](tunnel1.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
 **2. 对英文阅读有困难的朋友可以看一下这个翻译对照**
-![Alt text](./tunnel2.jpg)
+![这是图片](tunnel2.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
@@ -26,7 +24,7 @@ Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 2. 使用前面注册的账号密码登录
 
 3. 登录后点Create Regular Tunnel
-![Alt text](./tunnel3.jpg)
+![这是图片](tunnel3.jpg)
 
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
@@ -34,7 +32,7 @@ Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 或直接打开链接：https://www.tunnelbroker.net/new_tunnel.php
 
 4. 填写你的公网IPV4，选择一个离你VPS最近的节点，点Create Tunnel
-![Alt text](./tunnel4.jpg)
+![这是图片](tunnel4.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
@@ -51,17 +49,17 @@ net.ipv6.conf.lo.disable_ipv6 = 0
 
 **四、VPS中配置Tunnel**
 1. Tunnel创建完成后的页面是这样的，点`Example Configurations`
-![Alt text](./tunnel5.jpg)
+![这是图片](tunnel5.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
 2. 选择`Linux-net-tools`
-![Alt text](./tunnel6.jpg)
+![Alt text](tunnel6.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
 3. 复制配置代码
-![Alt text](./tunnel7.jpg)
+![Alt text](tunnel7.jpg)
 
 Linux下借助TunnelBroker(he.net)让不支持IPV6的VPS添加支持IPV6
 
